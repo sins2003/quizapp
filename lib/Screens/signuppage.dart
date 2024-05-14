@@ -39,7 +39,7 @@ class _signupState extends State<signup> {
                       offset: Offset(0, 3), // changes position of shadow
                     ),
                   ]),
-              height: 500,
+              height: 550,
               width: 450,
               child: Column(
                 children: [
