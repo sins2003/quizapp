@@ -23,26 +23,26 @@ class QuizProvider extends ChangeNotifier{
     notifyListeners();
   }
 
-  String congrats = '';
-  String imagePath = '';
-  String subtitle = '';
+  // String congrats = '';
+  // String imagePath = '';
+  // String subtitle = '';
 
-  changeResultStatus(){
-    if (score >= questions.length * 0.75){
-      congrats = 'Congratulations!';
-      imagePath = 'assets/images/result.jpg';
-      subtitle = "You're a superstar!";
-    }else if(score >= questions.length * 0.50){
-      congrats = 'Congratulations!';
-      imagePath = 'assets/images/result.jpg';
-      subtitle = "Keep up the good work!";
-    }else{
-      congrats = 'Oops!';
-      imagePath = 'assets/images/fail.png';
-      subtitle = "Sorry, better luck next time!";
-    }
-
-  }
+  // changeResultStatus(){
+  //   if (score >= questions.length * 0.75){
+  //     congrats = 'Congratulations!';
+  //     imagePath = 'assets/images/result.jpg';
+  //     subtitle = "You're a superstar!";
+  //   }else if(score >= questions.length * 0.50){
+  //     congrats = 'Congratulations!';
+  //     imagePath = 'assets/images/result.jpg';
+  //     subtitle = "Keep up the good work!";
+  //   }else{
+  //     congrats = 'Oops!';
+  //     imagePath = 'assets/images/fail.png';
+  //     subtitle = "Sorry, better luck next time!";
+  //   }
+  //
+  // }
 
 
   insertNewQuestion(){

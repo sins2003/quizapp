@@ -3,7 +3,8 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:quizapp/Screens/loginpage.dart';
+import 'package:quizapp/SqlFliteTest/Screens/UserLogin/loginpage.dart';
+
 
 void main (){
   runApp(MaterialApp(home: Qsplash(),debugShowCheckedModeBanner: false,));
