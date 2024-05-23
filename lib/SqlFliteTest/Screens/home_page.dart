@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import '../Provider/quiz_provider.dart';
-import '../Widgets/drawer.dart';
 import '../app_router.dart';
 import 'not_enough_question.dart';
 import 'start_quiz_screen.dart';
